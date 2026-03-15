@@ -1,0 +1,7 @@
+name: WindPowerForecastingFinal
+
+python_env: python_env.yaml
+
+entry_points:
+    main:
+        command: "python script.py"
