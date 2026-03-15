@@ -1,0 +1,15 @@
+name: windforecast
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26.0
+  - pandas=2.2.3
+  - scikit-learn=1.5.2
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - cloudpickle==3.1.0
+      - skops==0.13.0
+      - mlflow

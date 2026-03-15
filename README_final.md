@@ -87,9 +87,10 @@ This will:
 ## Option 2 (Recommended: MLflow Project)
 
 This project is packaged as an **MLflow Project** and can be run reproducibly with:
+--> IMPORTANT, specify the name of the experiment, do not run just "mlflow run ." !!!!!!!!!!
 
 ```bash
-mlflow run .
+mlflow run . --experiment-name "WindPowerForecastingFinal"
 ```
 
 MLflow will:
